@@ -21,6 +21,7 @@ module.exports = {
         "indent": [1, 4, {"SwitchCase": 1}],
         "keyword-spacing": "error",
         "new-cap": "error",
+        "new-parens": "error",
         "no-alert": "error",
         "no-bitwise": "error",
         "no-caller": "error",
