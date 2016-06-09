@@ -1,0 +1,19 @@
+machine:
+    node:
+        version: 6.0.0
+    ruby:
+        version: 2.2.0
+
+dependencies:
+    pre:
+    override:
+        - npm install
+
+test:
+    override:
+
+deployment:
+    master:
+        branch: master
+        commands:
+            - ./node_modules/.bin/publish

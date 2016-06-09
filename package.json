@@ -4,7 +4,7 @@
   "description": "An Eslint plugin exposing our common ruleset",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No test specified\""
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/streamroot/eslint-plugin-streamroot/issues"
   },
-  "homepage": "https://github.com/streamroot/eslint-plugin-streamroot#readme"
+  "homepage": "https://github.com/streamroot/eslint-plugin-streamroot#readme",
+  "devDependencies": {
+    "publish": "^0.6.0"
+  }
 }
