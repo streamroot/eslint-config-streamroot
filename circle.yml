@@ -10,7 +10,7 @@ dependencies:
         - npm install
 
 deployment:
-    preprod:
+    master:
         branch: master
         commands:
             - ./node_modules/.bin/release-it major -n -p
