@@ -9,6 +9,9 @@ dependencies:
     override:
         - npm install
 
+test:
+    override:
+
 deployment:
     master:
         branch: master
