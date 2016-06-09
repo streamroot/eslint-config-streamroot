@@ -16,4 +16,6 @@ deployment:
     master:
         branch: master
         commands:
+            - git config --global user.email "test@streamroot.io"
+            - git config --global user.name "Jean Hum"
             - ./node_modules/.bin/release-it major -n -p
