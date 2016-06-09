@@ -16,4 +16,5 @@ deployment:
     master:
         branch: master
         commands:
+            - 'echo //registry.npmjs.org/:_authToken=${PUBLIC_NPM_TOKEN} > ~/.npmrc'
             - ./node_modules/.bin/publish
