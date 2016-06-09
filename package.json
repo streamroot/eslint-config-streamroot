@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/streamroot/eslint-plugin-streamroot#readme",
   "devDependencies": {
-    "release-it": "^2.4.0"
+    "publish": "^0.6.0"
   }
 }

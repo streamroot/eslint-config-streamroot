@@ -16,5 +16,4 @@ deployment:
     master:
         branch: master
         commands:
-            - npm unpublish eslint-config-streamroot@1.0.0
-            - npm publish
+            - ./node_modules/.bin/publish
