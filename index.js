@@ -1,5 +1,6 @@
 module.exports = {
     "rules": {
+        "arrow-spacing": "error",
         "block-scoped-var": "error",
         "block-spacing": "error",
         "computed-property-spacing": [
