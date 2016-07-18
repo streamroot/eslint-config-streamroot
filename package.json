@@ -10,13 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/streamroot/eslint-plugin-streamroot.git"
   },
-  "author": "",
+  "author": "Streamroot Inc. <support@streamroot.io>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/streamroot/eslint-plugin-streamroot/issues"
   },
   "homepage": "https://github.com/streamroot/eslint-plugin-streamroot#readme",
   "devDependencies": {
-    "publish": "^0.6.0"
+    "publish": "0.6.0"
   }
 }
