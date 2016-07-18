@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-streamroot",
-  "version": "1.0.2",
+  "version": "1.0.3-beta",
   "description": "An Eslint plugin exposing our common ruleset",
   "main": "index.js",
   "scripts": {
