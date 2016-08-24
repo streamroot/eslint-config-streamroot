@@ -63,7 +63,8 @@ module.exports = {
         "no-unused-vars": [
             "error",
             {
-                "args": "all"
+                "vars": "all",
+                "args": "after-used"
             }
         ],
         "no-useless-call": "error",
